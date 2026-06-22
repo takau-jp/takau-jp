@@ -23,21 +23,22 @@
 
 | プロジェクト | ひとことで言うと | 身についたこと | 言語 |
 | ------------ | ---------------- | -------------- | ---- |
-| 🧰 [libft](https://github.com/takau-jp/libft) | C の標準ライブラリを自作 | C の基礎・メモリ管理・ライブラリ設計 | C |
-| 🗺️ [fdf](https://github.com/takau-jp/fdf) | 地形データを 3D ワイヤーフレームで描画 | グラフィックス・数学（座標変換） | C |
-| 🔢 [push_swap](https://github.com/takau-jp/push_swap) | 数列を最小手数で並び替えるソート | アルゴリズム・計算量の最適化 | C |
-| 📡 [minitalk](https://github.com/takau-jp/minitalk) | シグナルだけで文字列を送受信 | プロセス間通信・シグナル制御 | C |
-| 🍝 [philosophers](https://github.com/takau-jp/philosophers) | 並行処理の古典問題のシミュレーション | スレッド / プロセス・排他制御 | C |
-| 🐚 [minishell](https://github.com/takau-jp/minishell) | bash のサブセットを自作 | パーサ実装・プロセス制御 | C |
-| 🟩 [Wordle](https://github.com/takau-jp/Wordle) | 単語当てゲーム（CLI / Web） | OOP 設計・TypeScript / Web | C++ / TypeScript |
-| 🚧 miniRT *(開発中)* | レイトレーシングで 3DCG を描画 | グラフィックス・数学（光学・幾何） | C |
+| 🧰 [libft](https://github.com/takau-jp/libft) | C の標準ライブラリを自作 | C の基礎・メモリ管理・ライブラリ設計・IEEE 754・UTF-8・ビルド最適化 | C |
+| 🗺️ [fdf](https://github.com/takau-jp/fdf) | 地形データを 3D ワイヤーフレームで描画 | 3D グラフィックス・線形代数・行列/クォータニオン・描画アルゴリズム・レンダリングパイプライン | C |
+| 🔢 [push_swap](https://github.com/takau-jp/push_swap) | 数列を少ない手数で並び替えるソート | アルゴリズム設計・計算量の最適化・探索/ヒューリスティクス・データ分析によるチューニング | C |
+| 📡 [minitalk](https://github.com/takau-jp/minitalk) | シグナルだけで文字列を送受信 | プロセス間通信・シグナル制御・ビット操作・UTF-8 の規格準拠処理 | C |
+| 🍝 [philosophers](https://github.com/takau-jp/philosophers) | 並行処理の古典問題をシミュレーション | マルチスレッド・マルチプロセス・排他制御（mutex/セマフォ）・デッドロック回避・時間制御 | C |
+| 🐚 [minishell](https://github.com/takau-jp/minishell) 👥 | bash の自作（チーム開発） | 字句・構文解析・AST・プロセス制御・パイプ/リダイレクト・環境変数・シグナル処理 | C |
+| 🟩 [Wordle](https://github.com/takau-jp/Wordle) | 単語当てゲーム（CLI・Web） | Web フロントエンド・状態管理 | C++ ・ TypeScript |
+| 🚧 miniRT 👥 *(開発中)* | レイトレーシングで 3DCG を描画（チーム開発） | レイトレーシング・幾何・光学・ベクトル演算・交差判定 | C |
 
-> ポートフォリオとして公開許可を得て一時的に公開しています。miniRT は現在開発中です。
+> 👥 ＝ チーム開発のプロジェクト
 
 <p align="center">
-  <img src="asset/minirt_preview.png" alt="開発中の miniRT のレイトレーシング描画" width="420">
+  <img src="asset/fdf_42_animation.gif" alt="アニメーションする「42」のワイヤーフレーム" width="400">
 </p>
-<p align="center"><sub>🚧 開発中の miniRT — レイトレーシングによる球の陰影・反射のプレビュー</sub></p>
+
+> ポートフォリオとして公開許可を得て一時的に公開しています。
 >
 > 各プロジェクトの詳しい内容は下の「プロジェクト詳細」を開いてご覧ください 👇
 
@@ -114,10 +115,11 @@
 - **直感的な操作性**: 視点に合わせて回転軸を取り直すなど操作感を工夫し、回転・移動・拡大縮小・投影切り替えなど多様な操作に対応
 
 <p align="center">
-  <img src="asset/fdf_fps.gif" alt="透視投影を応用した FPS 視点" width="400">
-  <img src="asset/fdf_world_animation.gif" alt="世界地図の標高データを 3D 表示" width="400">
+  <img src="asset/fdf_fps.gif" alt="透視投影を応用した FPS 視点" width="260">
+  <img src="asset/fdf_japan.png" alt="操作パネル付きの高密度な地形表示（日本周辺）" width="260">
+  <img src="asset/fdf_world_animation.gif" alt="世界地図の標高データを 3D 表示" width="260">
 </p>
-<p align="center"><sub>左: マップの中に入り込む FPS 視点 ／ 右: 世界全体の標高データを 3D 表示</sub></p>
+<p align="center"><sub>左: マップの中に入り込む FPS 視点 ／ 中央: 操作パネル付きの高密度表示（日本周辺）／ 右: 世界全体の標高データ</sub></p>
 
 </details>
 
@@ -133,6 +135,12 @@
 | 100 個 | **424** 手 | 700 手未満 |
 | 500 個 | **3,242** 手 | 5,500 手未満 |
 
+<p align="center">
+  <img src="asset/push_swap_100.gif" alt="100 要素のソートの様子（ビジュアライザ）" width="400">
+  <img src="asset/push_swap_500.gif" alt="500 要素のソートの様子（ビジュアライザ）" width="400">
+</p>
+<p align="center"><sub>ビジュアライザでソートの様子を可視化 — 左: 100 要素 ／ 右: 500 要素</sub></p>
+
 **ポイント**
 
 - **前処理**: 「すでに正しい順序で並んでいる最大のグループ（最長増加部分列）」を見つけ、動かす必要のない要素を確定させて無駄な操作を削減
@@ -146,6 +154,15 @@
 <summary>📡 <b>minitalk</b> — シグナルだけで文字列を送受信</summary>
 
 **ひとことで言うと**: 通常の通信手段を使わず、OS の「シグナル」という最小限の合図 2 種類（`SIGUSR1` / `SIGUSR2`）**だけ**でクライアントからサーバへ文字列を送る課題です。
+
+<p align="center">
+  <img src="asset/minitalk_client.png" alt="minitalk クライアント側：文字列を送信" width="640">
+</p>
+<p align="center"><sub>▲ クライアント送信側 — ASCII・日本語・絵文字、そして不正な UTF-8 を送信（不正検出時は警告）</sub></p>
+<p align="center">
+  <img src="asset/minitalk_server.png" alt="minitalk サーバ側：受信して復元した文字列" width="640">
+</p>
+<p align="center"><sub>▲ サーバ受信側 — 日本語・絵文字も化けず届き、不正なバイト列は � (U+FFFD) に置換される</sub></p>
 
 **ポイント**
 
@@ -166,6 +183,11 @@
 
 **ひとことで言うと**: 「食事する哲学者の問題」という有名な並行処理の課題。複数の処理を同時に走らせたときに起きる **取り合い（デッドロック）や順番待ちによる餓死** を起こさずに、全員が食事・睡眠・思考を続けられるようシミュレートします。
 
+<p align="center">
+  <img src="asset/philo_demo.png" alt="philosophers の実行ログ（思考・フォーク取得・食事・睡眠のタイムスタンプ）" width="360">
+</p>
+<p align="center"><sub>実行例 <code>./philo 5 800 200 200</code> — 各哲学者の状態がミリ秒のタイムスタンプ付きで出力される</sub></p>
+
 **ポイント**
 
 - **2 つの並行モデルを実装**: 基本課題は「スレッド」＋ロック（mutex による排他制御）、発展課題は「プロセス」＋セマフォという別方式で実装し、両方のやり方を比較
@@ -174,9 +196,17 @@
 </details>
 
 <details>
-<summary>🐚 <b>minishell</b> — bash のサブセットを自作</summary>
+<summary>🐚 <b>minishell</b> — bash のサブセットを自作 👥</summary>
+
+> 👥 **チーム開発**（2 人）で取り組んだプロジェクトです。
 
 **ひとことで言うと**: 普段ターミナルで使う bash のような **シェル（コマンドを受け取って実行するプログラム）** を自作する課題です。入力された文字列を解析して、実際にコマンドとして動かします。
+
+<p align="center">
+  <img src="asset/minishell_demo.png" alt="minishell の実行例（パイプ・リダイレクト・$? ・&&/|| ・サブシェル・ヒアドキュメント・シグナル）" width="430">
+  <img src="asset/minishell_ast.png" alt="複雑なコマンドを解析して構築した抽象構文木（AST）" width="430">
+</p>
+<p align="center"><sub>左: 実際の動作例（<code>Ctrl-C</code> まで）／ 右: 複雑な入力を解析した AST の可視化</sub></p>
 
 **インタプリタのパイプラインを実装**
 
@@ -186,6 +216,12 @@
 入力 → 字句解析（lexer）→ 構文解析（parser）→ AST 構築
      → 展開（expander）→ 評価（evaluator）→ 実行（executor）
 ```
+
+実際の処理フロー（関数単位）は次の図のとおりです。
+
+<p align="center">
+  <img src="asset/minishell.png" alt="minishell の処理フロー（lexer → parser → evaluator → executor）" width="560">
+</p>
 
 **ポイント**
 
@@ -204,9 +240,19 @@
 
 **ひとことで言うと**: 隠された単語を数回の試行で当てる人気ゲーム Wordle のクローンです。**2 つのバージョン**を作りました。
 
+<p align="center">
+  <img src="asset/wordle.png" alt="ブラウザで動く Wordle（Web 版）" width="360">
+</p>
+<p align="center"><sub>ブラウザで動く Web 版（TypeScript）</sub></p>
+
 **ポイント**
 
 - **CLI 版（C++）**: ゲーム進行・判定・辞書・画面表示などの役割ごとにクラスを分けたオブジェクト指向設計。ターミナル上で色付き表示
 - **Web 版（TypeScript）**: TypeScript + HTML + CSS でブラウザ上で動作。`make web` でローカルサーバを起動してプレイ可能
 
 </details>
+
+<p align="center">
+  <img src="asset/minirt_preview.png" alt="開発中の miniRT のレイトレーシング描画" width="420">
+</p>
+<p align="center"><sub>🚧 開発中の miniRT — レイトレーシングによる球の陰影・反射のプレビュー</sub></p>
