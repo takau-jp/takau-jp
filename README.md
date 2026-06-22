@@ -228,7 +228,7 @@
 ---
 
 <details>
-<summary><b>🐚 minishell — bash のサブセットを自作 👥</b></summary>
+<summary><b>🐚 minishell — bash のクローンを自作 👥</b></summary>
 
 > 👥 **チーム開発**（2 人）で取り組んだプロジェクトです。
 
