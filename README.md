@@ -107,10 +107,10 @@
 > 📝 開発中に起きた投影バグの顛末を Qiita に執筆: [【3D → 2D 投影】バグで偶然かっこいいアニメーションになった話（Qiita）](https://qiita.com/takau-jp/items/bbe8cab9d3569b60c318)
 
 <p align="center">
-  <img src="asset/fdf_simple.gif" alt="基本の 3D ワイヤーフレーム表示" width="400">
+  <img src="asset/fdf_fps.gif" alt="透視投影を応用した FPS 視点" width="400">
   <img src="asset/fdf_fuji.gif" alt="国土地理院の標高データから描いた富士山" width="400">
 </p>
-<p align="center"><sub>左: 基本の表示（「42」） ／ 右: 実在の標高データから描いた富士山</sub></p>
+<p align="center"><sub>左: マップの中に入り込む FPS 視点 ／ 右: 実在の標高データから描いた富士山</sub></p>
 
 **ポイント**
 
@@ -129,11 +129,11 @@
 | UX | 直感的な操作性 | 視点に合わせて回転軸を取り直すなど、回転・移動・拡大縮小・投影切り替えを快適に操作 |
 
 <p align="center">
-  <img src="asset/fdf_fps.gif" alt="透視投影を応用した FPS 視点" width="260">
+  <img src="asset/fdf_simple.gif" alt="基本の 3D ワイヤーフレーム表示" width="260">
   <img src="asset/fdf_japan.png" alt="操作パネル付きの高密度な地形表示（日本周辺）" width="260">
   <img src="asset/fdf_world_animation.gif" alt="世界地図の標高データを 3D 表示" width="260">
 </p>
-<p align="center"><sub>左: マップの中に入り込む FPS 視点 ／ 中央: 操作パネル付きの高密度表示（日本周辺）／ 右: 世界全体の標高データ</sub></p>
+<p align="center"><sub>左: 基本の表示（「42」） ／ 中央: 操作パネル付きの高密度表示（日本周辺）／ 右: 世界全体の標高データ</sub></p>
 
 </details>
 
