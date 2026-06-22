@@ -1,46 +1,212 @@
-# Hi, I'm stanaka2 👋
+<h1 align="center">こんにちは、takau-jp です</h1>
 
-## About Me
+<p align="center">
+  <a href="https://www.42tokyo.jp/"><img src="https://img.shields.io/badge/42Tokyo-Student-000000?style=flat&logo=42&logoColor=white" alt="42Tokyo"></a>
+  <img src="https://img.shields.io/badge/Tokyo,%20Japan-📍-informational?style=flat" alt="Location">
+</p>
 
-- 🏫 Student at **42Tokyo**
-- - 📍 Tokyo, Japan
-  - - 💻 Interested in low-level programming, systems programming, and web development
-   
-    - ## Skills
-   
-    - ### Languages
-    - ![C](https://img.shields.io/badge/C-00599C?style=flat&logo=c&logoColor=white)
-    - ![C++](https://img.shields.io/badge/C++-00599C?style=flat&logo=cplusplus&logoColor=white)
-    - ![Go](https://img.shields.io/badge/Go-00ADD8?style=flat&logo=go&logoColor=white)
-    - ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat&logo=typescript&logoColor=white)
-    - ![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
-   
-    - ## Projects
-   
-    - ### 42Tokyo Cursus
-    - | Project | Description | Language |
-    - |---------|-------------|----------|
-    - | [libft](https://github.com/takau-jp/libft) | C standard library re-implementation | C |
-    - | [ft_printf](https://github.com/takau-jp/ft_printf) | printf re-implementation | C |
-    - | [get_next_line](https://github.com/takau-jp/get_next_line) | Read lines from file descriptor | C |
-    - | [fdf](https://github.com/takau-jp/fdf) | 3D wireframe renderer | C |
-    - | [push_swap](https://github.com/takau-jp/push_swap) | Stack sorting algorithm | C |
-    - | [minitalk](https://github.com/takau-jp/minitalk) | UNIX signal-based communication | C |
-    - | [pipex](https://github.com/takau-jp/pipex) | Shell pipe re-implementation | C |
-    - | [philosophers](https://github.com/takau-jp/philosophers) | Dining philosophers problem | C |
-    - | [so_long](https://github.com/takau-jp/so_long) | 2D tile-based game | C |
-    - | [minishell](https://github.com/takau-jp/minishell) | Shell re-implementation | C |
-    - | [cub3D](https://github.com/takau-jp/cub3D) | Raycasting 3D game (Wolfenstein-like) | C |
-    - | [miniRT](https://github.com/takau-jp/miniRT) | Ray tracer | C |
-    - | [CPP_Module](https://github.com/takau-jp/CPP_Module) | C++ OOP modules | C++ |
-   
-    - ### Other Projects
-    - | Project | Description | Language |
-    - |---------|-------------|----------|
-    - | [Wordle](https://github.com/takau-jp/Wordle) | Wordle game clone | C++ |
-    - | [bestrip](https://github.com/takau-jp/bestrip) | Web application | CSS/HTML |
-   
-    - ## GitHub Stats
-   
-    - ![takau-jp's GitHub stats](https://github-readme-stats.vercel.app/api?username=takau-jp&show_icons=true&theme=default)
-    - 
+## 自己紹介
+
+**42Tokyo** の学生です。C / C++ で標準ライブラリやシェルなどをスクラッチ開発で実装する課題を通して、低レイヤー・システムプログラミングを軸に学んでいます。
+
+## スキル
+
+### 言語
+
+![C](https://img.shields.io/badge/C-00599C?style=flat&logo=c&logoColor=white)
+![C++](https://img.shields.io/badge/C++-00599C?style=flat&logo=cplusplus&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat&logo=typescript&logoColor=white)
+
+## 主なプロジェクト
+
+42 Cursus で取り組んだプロジェクトの一部です。いずれも既存ライブラリに頼らず、**標準ライブラリレベルからゼロで実装**しています。
+
+| プロジェクト | ひとことで言うと | 身についたこと | 言語 |
+| ------------ | ---------------- | -------------- | ---- |
+| 🧰 [libft](https://github.com/takau-jp/libft) | C の標準ライブラリを自作 | C の基礎・メモリ管理・ライブラリ設計 | C |
+| 🗺️ [fdf](https://github.com/takau-jp/fdf) | 地形データを 3D ワイヤーフレームで描画 | グラフィックス・数学（座標変換） | C |
+| 🔢 [push_swap](https://github.com/takau-jp/push_swap) | 数列を最小手数で並び替えるソート | アルゴリズム・計算量の最適化 | C |
+| 📡 [minitalk](https://github.com/takau-jp/minitalk) | シグナルだけで文字列を送受信 | プロセス間通信・シグナル制御 | C |
+| 🍝 [philosophers](https://github.com/takau-jp/philosophers) | 並行処理の古典問題のシミュレーション | スレッド / プロセス・排他制御 | C |
+| 🐚 [minishell](https://github.com/takau-jp/minishell) | bash のサブセットを自作 | パーサ実装・プロセス制御 | C |
+| 🟩 [Wordle](https://github.com/takau-jp/Wordle) | 単語当てゲーム（CLI / Web） | OOP 設計・TypeScript / Web | C++ / TypeScript |
+| 🚧 miniRT *(開発中)* | レイトレーシングで 3DCG を描画 | グラフィックス・数学（光学・幾何） | C |
+
+> ポートフォリオとして公開許可を得て一時的に公開しています。miniRT は現在開発中です。
+
+<p align="center">
+  <img src="asset/minirt_preview.png" alt="開発中の miniRT のレイトレーシング描画" width="420">
+</p>
+<p align="center"><sub>🚧 開発中の miniRT — レイトレーシングによる球の陰影・反射のプレビュー</sub></p>
+>
+> 各プロジェクトの詳しい内容は下の「プロジェクト詳細」を開いてご覧ください 👇
+
+## プロジェクト詳細
+
+<details>
+<summary>🧰 <b>libft</b> — C の標準ライブラリを自作</summary>
+
+**ひとことで言うと**: `strlen` や `printf` 系といった C の定番関数を、標準ライブラリを使わずに自分で作り直したライブラリです。他のすべての課題の土台になっています。
+
+**何ができる？**
+
+- **文字・文字列・メモリ操作**: 文字種の判定、文字列の分割・結合・切り出し、メモリのコピーなど、定番の関数を一通り網羅
+- **数値変換・メモリ確保**: 文字列⇔数値の変換、ゼロ初期化付きの確保（calloc）、再確保（realloc）など
+- **連結リスト**: ノードの追加・削除・走査に加え、スタック / キューのような push / pop 操作も用意
+- **数学・乱数**: 平方根・四捨五入・絶対値、xorshift 法による高速な乱数生成
+- **get_next_line**: ファイルから 1 行ずつ読み込む関数も同梱
+
+**こだわったところ①｜「ライブラリ」としての設計**
+
+単なる関数の寄せ集めではなく、**他人が使うライブラリ**として使い勝手と保守性を意識して設計しました。
+
+- **公開 / 非公開をヘッダで分離**: 利用者が触れてよい API だけを公開ヘッダにまとめ、内部実装のシンボルは外から見えないように分離。使う側が内部の都合を意識せず、安全に使えるようにした
+- **IWYU でビルド時間を約 20% 削減**: IWYU（Include What You Use ＝ 必要な分だけ include する）の考え方で不要な依存を洗い出して整理し、ビルド時間の短縮を実現
+
+**こだわったところ②｜仕様（マニュアル）に忠実な実装**
+
+「動けば OK」ではなく、**規格や man をきちんと読み込み、本物と同じ挙動**を目指しました。
+
+- **C 標準規格を確認し、未定義動作を回避**: 規格（C standard）を参照して「やってはいけない書き方（未定義動作）」を避け、環境やコンパイラが変わっても安定して動く実装を徹底。
+- **IEEE 754（浮動小数点数）**: 内部のビット表現や丸めルールを規格通りに扱い、小数を正確に変換・出力（`ft_printf` / `ft_strtod`）
+- **UTF-8（Unicode）**: マルチバイト文字を正しく検証・エンコードし、絵文字などもきちんと処理
+
+### 🔍 特に作り込んだ 2 つの関数
+
+**`ft_printf` — `printf` の自作版**
+
+`printf` の **C 標準機能をほぼ網羅**して自作しました。
+
+- **複雑な書式指定にフル対応**: フラグ（`-` `+` ` ` `#` `0`）・幅・精度・長さ修飾子の組み合わせまで、標準仕様どおりに処理
+- **小数まで自前で出力**: `%f` `%e` `%g` `%a` に対応。小数はコンピュータ内部のビット表現（IEEE 754）を直接読み解いて正確な桁数で表示し、四捨五入も「最近接偶数丸め」という正式なルールで実装。`double`（binary64）と `long double`（binary80）の両方を扱い、**できる限り処理を共通化**して重複を抑えた設計
+- **UTF-8 対応**: マルチバイト文字（絵文字など）も正しく出力
+- **出力先を切り替え可能**: 標準出力だけでなく、任意の出力先に書ける `ft_dprintf`（ファイルディスクリプタ指定）や、文字列へ書き込む `ft_snprintf` も実装
+
+**`ft_strtod` — 文字列を小数に変換**
+
+「`"3.14"` という文字列を小数 `3.14` に変換する」関数を、**誤差が出ないよう小数演算を一切使わずに**実装しました。途中計算には浮動小数点を使わず、**多倍長整数の配列で固定小数点（整数部 309 桁＋小数部 1075 桁）を表現**し、整数演算だけで正確な小数を組み立てます。これにより、簡易な実装では避けられない丸め誤差を排し、**正確な数値への変換**を実現しています。`0x1.8p3` のような 16 進小数や `inf` / `nan` にも対応しています。
+
+</details>
+
+<details>
+<summary>🗺️ <b>fdf</b> — 地形データを 3D ワイヤーフレームで描画</summary>
+
+**ひとことで言うと**: 標高（高さ）が書かれたファイルを読み込んで、それを 3D の立体的な地形（針金細工のようなワイヤーフレーム）として画面に描くビューアです。描画には学校指定のライブラリ MiniLibX を使用しています。
+
+<p align="center">
+  <img src="asset/fdf_simple.gif" alt="基本の 3D ワイヤーフレーム表示" width="400">
+  <img src="asset/fdf_fuji.gif" alt="国土地理院の標高データから描いた富士山" width="400">
+</p>
+<p align="center"><sub>左: 基本の表示（「42」） ／ 右: 実在の標高データから描いた富士山</sub></p>
+
+**ポイント**
+
+- **レンダリングパイプラインを意識した設計**: 「座標変換 → 投影 → クリッピング → ラスタライズ（描画）」という 描画処理の流れを参考に、各工程を段階的に分けて実装
+- **アフィン変換を行列計算で実装**: 回転・拡大縮小・平行移動をまとめて扱える行列計算（アフィン変換）で、平面のデータを立体的に変換
+- **3 種類の投影に対応**: 奥行きで大きさが変わらない「平行投影」、遠近感のある「透視投影」、さらに透視投影を応用してマップの中に入り込む「FPS 視点」を実装。透視投影では近づく / 離れるズーム操作にも対応
+- **多彩な見た目に切り替え**: あらかじめ用意した複数のカラーセット（色のアセット）から選んで、地形の配色を切り替えられるように実装
+- **自然な回転（オイラー角＋クォータニオン）**: 軸ごとの角度を扱うオイラー角に加え、回転がおかしくなる現象（ジンバルロック）を避けられるクォータニオン（四元数）を併用して、滑らかで破綻のない回転を実現
+- **線と色の描画**: 整数演算だけで直線を描くブレゼンハムのアルゴリズムで頂点間を結び、頂点どうしの色を線形補間して滑らかなグラデーションを表現
+- **画面クリッピングで高速化**: 画面外にはみ出した線分を描く前に切り落とすコーヘン-サザーランド法で、無駄な描画を省いて高速化
+- **Z バッファリング**: ピクセルごとに奥行きを記録し、手前のものが奥のものを正しく隠すように描画
+- **半透明の情報パネル**: 背景色と重ねて混ぜ合わせるカラーブレンディング（アルファ合成）で、操作方法などを表示する透過パネルを描画
+- **実在の地形を表示**: 国土地理院の標高タイルを fdf 形式に変換し、実際の地形データ（富士山や世界地図）を 3D で表示
+- **直感的な操作性**: 視点に合わせて回転軸を取り直すなど操作感を工夫し、回転・移動・拡大縮小・投影切り替えなど多様な操作に対応
+
+<p align="center">
+  <img src="asset/fdf_fps.gif" alt="透視投影を応用した FPS 視点" width="400">
+  <img src="asset/fdf_world_animation.gif" alt="世界地図の標高データを 3D 表示" width="400">
+</p>
+<p align="center"><sub>左: マップの中に入り込む FPS 視点 ／ 右: 世界全体の標高データを 3D 表示</sub></p>
+
+</details>
+
+<details>
+<summary>🔢 <b>push_swap</b> — 数列を最小手数で並び替えるソート</summary>
+
+**ひとことで言うと**: 2 つのスタックと限られた数種類の操作（先頭2つを入れ替える `swap`、回転させる `rotate`、もう一方へ移す `push` など）だけを使ってバラバラの数列を昇順に並べ替え、その手順を出力するプログラムです。**いかに少ない手数で並べ替えるか**が評価のポイントになります。
+
+**🏆 42Tokyo 学内 No.1 記録を達成**（2025 年 12 月 7 日時点）。既存の解法をなぞるのではなく、**アルゴリズムを 0 から自分で考案**し、それまでの記録を大幅に更新しました。
+
+| 要素数 | 手数の中央値 | （参考）満点ライン |
+| ------ | ------------ | ------------------ |
+| 100 個 | **424** 手 | 700 手未満 |
+| 500 個 | **3,242** 手 | 5,500 手未満 |
+
+**ポイント**
+
+- **前処理**: 「すでに正しい順序で並んでいる最大のグループ（最長増加部分列）」を見つけ、動かす必要のない要素を確定させて無駄な操作を削減
+- **モンテカルロ法でさらに最適化**: Xorshift の高速な乱数で挿入順をランダムに大量試行（モンテカルロ法）し、より手数の少ない解を探索。計算結果をメモ化（メモライゼーション）して再計算を省くことで、現実的な時間でよい手を見つけられるよう高速化
+- **メタヒューリスティクス × データ分析でチューニング**: 厳密な最適解を求めるのではなく「十分よい解」を効率的に探すメタヒューリスティクスの考え方を採用。大量のテスト結果を統計的に分析しながらパラメータを調整し、平均手数を着実に削減
+- **安定した性能**: 要素数が増えても効率が落ちにくく、入力の並びによって手数が激しく上下しない安定性を重視。実際にベンチマークでも最小〜最大の手数の差が小さく収まっている（500 個で 3,137〜3,334 手）
+
+</details>
+
+<details>
+<summary>📡 <b>minitalk</b> — シグナルだけで文字列を送受信</summary>
+
+**ひとことで言うと**: 通常の通信手段を使わず、OS の「シグナル」という最小限の合図 2 種類（`SIGUSR1` / `SIGUSR2`）**だけ**でクライアントからサーバへ文字列を送る課題です。
+
+**ポイント**
+
+- **0 と 1 で文字を送る**: 1 文字 = 8 ビットに分解し、2 種類のシグナルを「0」「1」に見立てて上位ビットから 1 ビットずつ送信。サーバ側でビットを組み立てて 8 ビット揃うごとに 1 文字へ復元する
+- **送信元を特定できるシグナル受信**: `sigaction` + `siginfo_t`（`SA_SIGINFO`）で、どのプロセスから送られたシグナルかを取得。これにより後述の ACK 応答や複数クライアントの識別を実現
+- **取りこぼしを防ぐ ACK（受信確認）**: サーバは 1 ビット受け取るごとに確認のシグナルを返信。クライアントは ACK を受け取ってから次のビットを送ることで、シグナルの取りこぼし（消失）を防止
+- **指数バックオフ＋タイムアウト**: ACK を待つ間隔を 1 → 2 → 4… と倍々に広げる指数バックオフで CPU の無駄打ちを抑えつつ、一定時間応答がなければタイムアウトとして接続エラーを検出
+- **複数クライアントの排他制御**: サーバは 1 クライアントと通信中に別のクライアントが割り込むと `SIGUSR2`（NAK）で拒否し、通信の混線を防止。接続中のクライアント PID を表示
+- **UTF-8 の正確な理解に基づく実装**: 「正しく解釈する・正しく処理する・不正なデータを安全に扱う」という Unicode 準拠の 3 要件を満たすことを目標に実装。正規のバイト列を流すだけでなく、実装にあたっては Unicode コンソーシアムの仕様書・技術レポートや W3C のエンコーディング標準を調査し、規格に忠実な処理を追求した
+- **多様な不正パターンを検出**: 単なるビットパターンの誤りだけでなく、本来より長いバイト数で符号化した**非最短形式（overlong）**、**サロゲート領域**（U+D800–U+DFFF）や U+10FFFF を超える**不正なコードポイント**まで検出。さらに非文字（U+FDD0–U+FDEF など計 66 個）も適切に処理
+- **安全な置換処理（最大部分置換）**: 壊れた UTF-8 を検出した際は、Unicode / W3C が推奨する「最大部分置換（Substitution of Maximal Subparts）」の方針に従い、不正箇所を**有効に読めた単位ごと**に置換文字 U+FFFD へ置き換え。不正バイトを単に削除するとセキュリティリスクになるため、削除ではなく置換で安全に処理する
+- 📝 この UTF-8 のエラー処理について解説記事も執筆: [【Unicode】UTF-8 のエラー処理について（Qiita）](https://qiita.com/takau-jp/items/13b628e0c5542d396fc3)
+
+</details>
+
+<details>
+<summary>🍝 <b>philosophers</b> — 並行処理の古典問題のシミュレーション</summary>
+
+**ひとことで言うと**: 「食事する哲学者の問題」という有名な並行処理の課題。複数の処理を同時に走らせたときに起きる **取り合い（デッドロック）や順番待ちによる餓死** を起こさずに、全員が食事・睡眠・思考を続けられるようシミュレートします。
+
+**ポイント**
+
+- **2 つの並行モデルを実装**: 基本課題は「スレッド」＋ロック（mutex による排他制御）、発展課題は「プロセス」＋セマフォという別方式で実装し、両方のやり方を比較
+- **時間にシビアな制御**: 哲学者が規定時間内に食事できないと「死亡」扱いになるため、ミリ秒単位の正確なタイミング管理を実装
+
+</details>
+
+<details>
+<summary>🐚 <b>minishell</b> — bash のサブセットを自作</summary>
+
+**ひとことで言うと**: 普段ターミナルで使う bash のような **シェル（コマンドを受け取って実行するプログラム）** を自作する課題です。入力された文字列を解析して、実際にコマンドとして動かします。
+
+**インタプリタのパイプラインを実装**
+
+入力を以下の工程に分けて処理し、bash の挙動を再現しています。
+
+```text
+入力 → 字句解析（lexer）→ 構文解析（parser）→ AST 構築
+     → 展開（expander）→ 評価（evaluator）→ 実行（executor）
+```
+
+**ポイント**
+
+- **トークン化と AST 構築**: 入力をトークンに分解し、演算子の優先順位（`;` < `&&`/`||` < `|` < コマンド）に基づいて抽象構文木（AST）を組み立て。木をたどることで複雑なコマンドの実行順序を正しく制御
+- **制御構造をひと通りサポート**: パイプ（`|`）、論理演算（`&&` / `||`）、コマンド区切り（`;`）、そして `( )` による**サブシェル**（子プロセスで隔離して実行）にも対応
+- **多彩なリダイレクト**: `>` `<` `>>` に加え、ヒアドキュメント（`<<`）まで実装
+- **本格的な変数展開（expander）**: 環境変数や `$?`（直前の終了ステータス）の展開、シングル / ダブルクォートやエスケープの処理、IFS に基づくワードスプリッティングなど、bash 相当の展開処理
+- **3 種類の変数スコープを管理**: 環境変数・シェル変数・一時環境変数（`VAR=value command` のような一時的な代入）を区別して扱い、`export` の有無による挙動も再現
+- **ビルトインを直接実装**: `cd` `echo` `env` `exit` `export` `pwd` `unset`。`cd` や `export` などシェル自身の状態を変える組み込みコマンドは、あえて fork せず親プロセスで実行（NO_FORK）して状態が正しく反映されるよう制御
+- **シグナル対応**: `Ctrl-C` / `Ctrl-\` / `Ctrl-D` を、対話入力中・ヒアドキュメント入力中・コマンド実行中それぞれで本物のシェルらしく処理
+
+</details>
+
+<details>
+<summary>🟩 <b>Wordle</b> — 単語当てゲーム（CLI / Web）</summary>
+
+**ひとことで言うと**: 隠された単語を数回の試行で当てる人気ゲーム Wordle のクローンです。**2 つのバージョン**を作りました。
+
+**ポイント**
+
+- **CLI 版（C++）**: ゲーム進行・判定・辞書・画面表示などの役割ごとにクラスを分けたオブジェクト指向設計。ターミナル上で色付き表示
+- **Web 版（TypeScript）**: TypeScript + HTML + CSS でブラウザ上で動作。`make web` でローカルサーバを起動してプレイ可能
+
+</details>
