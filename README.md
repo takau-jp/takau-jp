@@ -1,4 +1,4 @@
-<h1 align="center">こんにちは、stanaka です</h1>
+<h1 align="center">こんにちは。</h1>
 
 <p align="center">
   <a href="https://www.42tokyo.jp/"><img src="https://img.shields.io/badge/42Tokyo-Student-000000?style=flat&logo=42&logoColor=white" alt="42Tokyo"></a>
