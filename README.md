@@ -28,7 +28,7 @@
 | 🔢 [push_swap](https://github.com/takau-jp/push_swap) | 数列を少ない手数で並び替えるソート | アルゴリズム設計・計算量の最適化・探索/ヒューリスティクス・データ分析によるチューニング | C |
 | 📡 [minitalk](https://github.com/takau-jp/minitalk) | シグナルだけで文字列を送受信 | プロセス間通信・シグナル制御・ビット操作・UTF-8 の規格準拠処理 | C |
 | 🍝 [philosophers](https://github.com/takau-jp/philosophers) | 並行処理の古典問題をシミュレーション | マルチスレッド・マルチプロセス・排他制御（mutex/セマフォ）・デッドロック回避・時間制御 | C |
-| 🐚 [minishell](https://github.com/takau-jp/minishell) 👥 | bash の自作（チーム開発） | 字句・構文解析・AST・プロセス制御・パイプ/リダイレクト・環境変数・シグナル処理 | C |
+| 🐚 [minishell](https://github.com/takau-jp/minishell) 👥 | bash の自作（チーム開発） | チーム開発の経験/字句・構文解析・AST・プロセス制御・パイプ/リダイレクト・環境変数・シグナル処理 | C |
 | 🟩 [Wordle](https://github.com/takau-jp/Wordle) 👥| 単語当てゲーム（CLI・Web）（チーム開発）  | Web フロントエンド・状態管理 | C++ ・ TypeScript |
 | 🚧 miniRT 👥 *(開発中)* | レイトレーシングで 3DCG を描画（チーム開発） | レイトレーシング・幾何・光学・ベクトル演算・交差判定 | C |
 
